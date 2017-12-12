@@ -19,6 +19,7 @@ You can move around with the wasd keys.
 You need glfw3, glew, glm, alut, cmake, and Xcode. I recommend installing all of these with homebrew.
 
 Edit the CMakeLists.txt file so the search paths for alut, glfw, glew, and glm point to your specific installation path 
+
 ex: (set ALUT_DIR $ENV{ALUT_DIR}) -> (set ALUT_DIR /usr/local/Cellar/freealut/1.1.0)
 
 
