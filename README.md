@@ -7,7 +7,7 @@ For the audio I used OpenAL, alut, and the Accelerate framework. (So this will o
 
 My program reads in audio from my laptop's microphone, performs an fft on this audio, and creates dynamic textures in real time.
 
-Ideally my program would have read audio from the hardware, but my mac wouldn't allow me to do so, at least not with OpenAL.
+Ideally the program would read audio from the hardware, but my mac wouldn't allow me to do so.
 
 I used heightmapping to create the dynamic audio textures. 
 
