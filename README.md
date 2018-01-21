@@ -13,6 +13,8 @@ I used heightmapping to create the dynamic audio textures.
 
 You can move around with the wasd keys.
 
+![alt text](quiet.png "No audio")
+![alt text](loud.png "With audio")
 
 # To build (on macs only)
 
@@ -22,5 +24,4 @@ Edit the CMakeLists.txt file so the search paths for alut, glfw, glew, and glm p
 
 ex: (set ALUT_DIR $ENV{ALUT_DIR}) -> (set ALUT_DIR /usr/local/Cellar/freealut/1.1.0)
 
-![alt text](quiet.png "No audio")
-![alt text](loud.png "With audio")
+
